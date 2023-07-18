@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    text-align: center;
+    background-color: #22223b;
+}
+main{
+    margin: 1rem 5rem;
+    padding: 1rem;
+    background-color: #f2e9e4;
+    border-radius: 10px;
+}
+h1, footer{
+    color: #f2e9e4;
+}
+embed{
+    height: 500px;
+}
+a{
+    display: block;
+}
+.kitties{
+    width: 500px;
+}
+.pokeImg img:hover{
+    transform: scale(1.5);
+}
+ul{
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+#region-details ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#results{
+    background-color: #22223b;
+    color: #f2e9e4;
+    padding: .5rem;
+    border-radius: 5px;
+    animation-name: wow;
+    animation-duration: 2s;
+}
+@keyframes wow {
+    33% {
+      width: 20px;
+      height: 20px;
+      font-size: 14px;
+    }
+    66% {
+      width: 35px;
+      height: 35px;
+      font-size: 30px;
+    }
+    100% {
+      width: 20px;
+      height: 20px;
+      font-size: 14px;
+    }
+  }
