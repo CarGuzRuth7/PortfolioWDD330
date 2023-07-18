@@ -1,11 +1,5 @@
 let URL = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"; //${pokemonIndex}.png"
 
-//get and fetch API
-async function fetchAPI(pokemonIndex){
-    const response = await fetch(URL + `${pokemonIndex}.png`);
-    const product = await response.json();
-    return product;
-};
 
 function displayPokeImg(){
     //random num between 1-150

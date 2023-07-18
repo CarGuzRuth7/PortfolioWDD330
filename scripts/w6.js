@@ -17,7 +17,7 @@ function displayResults(data){
     const section = document.createElement("section");
     const closeBtn = document.createElement("button");
     const list = [];
-    let colorLst = ["#ffe62d", "#7cbeb3"];
+    let colorLst = ["#ffe62d", "#7cbeb3", "#93c8d0", "#fe9441"];
 
     section.classList.add("alert-list");
     section.style.maxWidth = "400px"

@@ -14,6 +14,29 @@ main{
     background-color: #f2e9e4;
     border-radius: 10px;
 }
+label, textarea, #commtBtn, #username{
+    display: block;
+    text-align: start;
+    width: 100%;
+   
+    
+}
+textarea:focus, input:focus{
+    outline: none;
+    background-color: #f0e6ef;
+    color: black;
+}
+fieldset{
+    max-width: 500px;
+    margin: auto;
+    background-color: #22223b;
+    color: #f2e9e4;
+}
+input{
+    margin: .3rem;
+    padding: .7rem;
+    font-size: 18px;
+}
 h1, footer{
     color: #f2e9e4;
 }
@@ -23,6 +46,11 @@ embed{
 }
 a{
     display: block;
+    margin: .3rem;
+}
+#home-img{
+    border: 5px solid #22223b;
+    width: 60%;
 }
 .kitties{
     width: 500px;
@@ -65,6 +93,20 @@ ul li{
       font-size: 14px;
     }
   }
+.pokemon-info{
+    margin: .5rem;
+    border: 1px solid #22223b;
+}
+#searchBtn, #commtBtn{
+    margin: .3rem;
+    padding: .5rem;
+    color: #f2e9e4;
+    background-color: #4A4E69;
+}
+#searchBtn:hover, #commtBtn:hover{
+    background-color: #22223b;
+    cursor: pointer;
+}
 
 @media screen and (min-width: 500px) {
     main{
@@ -75,5 +117,8 @@ ul li{
     embed{
         width: 60%;
 
+    }
+    #home-img{
+        width: 30%;
     }
 }
