@@ -2,8 +2,25 @@
     {   
         "id": "25",
         "name": "Pikachu",
-        "tag": "Pika Pika",
-        "color": "#ffe62d ",
+        "tag": "Pika Pika!",
         "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+    },
+    {   
+        "id": "1",
+        "name": "Bulbasaur",
+        "tag": "Bulba.. Saur",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+    },
+    {   
+        "id": "4",
+        "name": "Charmander",
+        "tag": "Char! Char!",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+    },
+    {   
+        "id": "7",
+        "name": "Squirtle",
+        "tag": "Squirtle squirtle!",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
     }
 ]
