@@ -47,6 +47,11 @@ embed{
 a{
     display: block;
     margin: .3rem;
+    padding: .3rem;
+    text-decoration: none;
+}
+a:hover{
+    background-color: pink;
 }
 #home-img{
     border: 5px solid #22223b;
@@ -107,6 +112,23 @@ ul li{
     background-color: #22223b;
     cursor: pointer;
 }
+#primaryNav li a{
+    color: #f2e9e4;
+    padding: .5rem;
+}
+#primaryNav li a:hover{
+    color: #22223b;
+}
+#primaryNav li{
+    padding: .1rem;
+}
+#primaryNav, #hamburgerBtn span:nth-child(2), #hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+#primaryNav.open, #hamburgerBtn span:nth-child(1), #hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
 
 @media screen and (min-width: 500px) {
     main{
@@ -115,7 +137,8 @@ ul li{
 
     }
     embed{
-        width: 60%;
+        width: 80%;
+        height: 500px;
 
     }
     #home-img{
